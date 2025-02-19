@@ -38,3 +38,21 @@ The retro theme was chosen to give the game a nostalgic and fun appearance, remi
 ### Containerization
 - **Docker**: Used to ensure consistency across different environments. Docker allows the application to run in isolated containers, making it easier to manage dependencies and deploy the application.
 - **Docker Compose**: Facilitates the orchestration of multiple containers, allowing the frontend and backend to run simultaneously with a single command.
+
+## Testing the Backend
+
+To run the backend unit tests, follow these steps:
+
+1. Ensure that you have the application running as described in the "Running the Application" section.
+
+2. Open a terminal and navigate to the backend directory:
+    ```sh
+    cd backend
+    ```
+
+3. Run the unit tests using the following command:
+    ```sh
+    php artisan test --testsuite=Unit
+    ```
+
+This command will execute all the unit tests in the `tests/Unit` directory and display the results in the terminal.
