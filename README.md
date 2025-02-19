@@ -15,7 +15,7 @@ The retro theme was chosen to give the game a nostalgic and fun appearance, remi
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/rock-paper-scissors.git
+    git clone https://github.com/JohnRCabz/rockpaperscissors.git
     cd rock-paper-scissors
     ```
 
@@ -25,3 +25,16 @@ The retro theme was chosen to give the game a nostalgic and fun appearance, remi
     ```
 
 3. Open your browser and navigate to `http://localhost:8080` to see the application in action.
+
+## Design Decisions
+
+### Frontend
+- **Vue.js**: Chosen for its simplicity and ease of integration with other libraries. It provides a reactive and component-based architecture which is perfect for building interactive user interfaces.
+- **Retro Theme**: The retro theme was selected to evoke nostalgia and provide a unique, engaging user experience. The design includes vibrant colors and pixelated fonts to mimic classic arcade games.
+
+### Backend
+- **Laravel**: Selected for its elegant syntax and powerful features. Laravel simplifies common tasks such as routing, authentication, and caching, making it an excellent choice for building robust web applications.
+
+### Containerization
+- **Docker**: Used to ensure consistency across different environments. Docker allows the application to run in isolated containers, making it easier to manage dependencies and deploy the application.
+- **Docker Compose**: Facilitates the orchestration of multiple containers, allowing the frontend and backend to run simultaneously with a single command.
